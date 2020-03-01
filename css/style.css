@@ -264,9 +264,14 @@ body{
         color: white;
         font-size: 18px;
         text-align: center;
-        padding: 0 70px;
+        margin: 0 auto;
         margin-bottom: 40px;
         line-height: 1.5
+    }
+    .ssylka{
+        width: 300px;
+        display: flex;
+
     }
     .button{
         position: absolute;
@@ -284,11 +289,11 @@ body{
         transition: 1s;
     }
     .button-main{
-        padding: 25px 50px;
+        padding: auto auto;
         transition: 1s;
         margin: 20px 60px;
         border-radius: 10px;
-        width: 300px;
+        width: 250px;
         text-align: center;
     }
     .button-main:hover{
@@ -361,7 +366,7 @@ body{
     
  @media (max-width:1080px){
      .container{
-         width: 90%;
+         width: 80%;
      }
      .menu-button{
          z-index: 2;
@@ -370,7 +375,7 @@ body{
         top: 40px;
         right: 35px;
         width: 30px;
-        height: 2px;
+        height: 3px;
         background-color: white;
         border: none;
     }
@@ -381,7 +386,7 @@ body{
         content: '';
         display: block;
         width: 30px;
-        height: 2px;
+        height: 3px;
         transition: transform 0.5s;
         background-color: white;
         margin-top: 7px;
@@ -393,7 +398,7 @@ body{
         content: '';
         display: block;
         width: 30px;
-        height: 2px;
+        height: 3px;
         transition: transform 0.5s;
         background-color: white;
         margin-top: 14px;
@@ -453,11 +458,11 @@ body{
     }
     .img1{
         width: 70%;
-        min-width: 300px;
+        min-width: 250px;
     }
     .text{
         width: 80%;
-        min-width: 300px;
+        min-width: 250px;
     }
     .contain1{
         flex-direction: column;
@@ -470,12 +475,12 @@ body{
     .contain1 .img{
         margin: 0 0 20px;
         width: 70%;
-        min-width: 300px;
+        min-width: 250px;
     }
     .contain2 .img{
         margin: 0 0 20px;
         width: 70%;
-        min-width: 300px;
+        min-width: 250px;
     }
     .document{
         flex-direction: column;
@@ -484,16 +489,16 @@ body{
     .doc-img{
         margin-bottom: 20px;
         width: 70%;
-        min-width: 300px;
+        min-width: 250px;
     }
     .doc-img-res{
         width: 70%;
-        min-width: 300px;
+        min-width: 250px;
         align-items: center;
     }
     .doc-title{
         width: 80%;
-        min-width: 300px;
+        min-width: 250px;
     }
     .document:last-child{
         margin-bottom: 0;
@@ -505,17 +510,17 @@ body{
     .button-contain1{
         width: 60%;
         margin-bottom: 20px;
-        min-width: 300px;
+        min-width: 250px;
     }
     .button-contain2{
         width: 60%;
         margin-bottom: 20px;
-        min-width: 300px;
+        min-width: 250px;
 
     }
     .button-contain3{
         width: 60%;
-        min-width: 300px;
+        min-width: 250px;
 
     }
     .asac-text{
@@ -523,7 +528,7 @@ body{
     }
     .map{
         width: 80%;
-        min-width: 400px;
+        min-width: 280px;
     }
     .adres{
         margin: 0 auto 10px;
