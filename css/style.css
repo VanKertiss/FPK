@@ -453,11 +453,11 @@ body{
     }
     .img1{
         width: 70%;
-        min-width: 350px;
+        min-width: 300px;
     }
     .text{
         width: 80%;
-        min-width: 350px;
+        min-width: 300px;
     }
     .contain1{
         flex-direction: column;
@@ -470,12 +470,12 @@ body{
     .contain1 .img{
         margin: 0 0 20px;
         width: 70%;
-        min-width: 350px;
+        min-width: 300px;
     }
     .contain2 .img{
         margin: 0 0 20px;
         width: 70%;
-        min-width: 350px;
+        min-width: 300px;
     }
     .document{
         flex-direction: column;
@@ -484,16 +484,16 @@ body{
     .doc-img{
         margin-bottom: 20px;
         width: 70%;
-        min-width: 350px;
+        min-width: 300px;
     }
     .doc-img-res{
         width: 70%;
-        min-width: 350px;
+        min-width: 300px;
         align-items: center;
     }
     .doc-title{
         width: 80%;
-        min-width: 350px;
+        min-width: 300px;
     }
     .document:last-child{
         margin-bottom: 0;
@@ -505,17 +505,17 @@ body{
     .button-contain1{
         width: 60%;
         margin-bottom: 20px;
-        min-width: 350px;
+        min-width: 300px;
     }
     .button-contain2{
         width: 60%;
         margin-bottom: 20px;
-        min-width: 350px;
+        min-width: 300px;
 
     }
     .button-contain3{
         width: 60%;
-        min-width: 350px;
+        min-width: 300px;
 
     }
     .asac-text{
